@@ -1,0 +1,9 @@
+spring:
+ datasource:
+  url: jdbc:h2:file:/type/cloud_db
+  driverClassName: org.h2.Driver
+  username: cloud
+  password: cloud
+ jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
+  defer-datasource-initialization: true
